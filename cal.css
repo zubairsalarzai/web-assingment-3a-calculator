@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Pacifico|Oxygen);
+
+body {
+  background-color: rgb(149, 187, 236);
+}
+
+p {
+  margin: 0;
+  font-family: Pacifico;
+  position: relative;
+  left: 5%;
+}
+
+.calculator {
+  position: relative;
+  margin: 1em auto;
+  margin-top: 80px;
+  padding: 1em 0;
+  display: block-inline;
+  width: 350px;
+  background-color: rgb(184, 228, 248);
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px 3px #111;
+  font-family: 'Oxygen';
+}
+
+.calc-row {
+  text-align: center;
+}
+
+.calc-row div.screen {
+  font-family: Droid Sans Mono;
+  display: table;
+  width: 85%;
+  padding: 10px 0;
+  background-color: rgb(138, 235, 252);
+  text-align: right;
+  font-size: 2em;
+  min-height: 1.2em;
+  margin-left: 0.5em;
+  padding-right: 0.5em;
+  border: 1px solid #888;
+  color: #333;
+}
+
+.calc-row div {
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  border: 1px solid rgb(27, 103, 133);
+  background-color: rgb(194, 208, 238);
+  padding: 10px 0;
+  margin: 7px 5px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 1px 1px #222;
+  width: 50px;
+}
+.calc-row div:hover{
+    background-color: rgb(73, 202, 202);
+}
+
+.calc-row div.zero {
+  width: 112px;
+}
+
+.calc-row div.zero {
+  margin-right: 5px;
+}
